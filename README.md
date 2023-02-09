@@ -7,3 +7,7 @@ La premiere page (hash.php) permet avec un form de hasher un texte ou un fichié
 Le deuxième page (cipher.php) contient deux forms. Le premier permet de chiffrer une donnée en entrée avec une clé de chiffrement de notre choix.
 Le deuxième permet de déchiffrer une entrée avec la clé nécessaire à le faire.
 Les deux forms affiche le résultat juste en dessous.
+
+pour lancer le dockerfile:
+docker build app
+docker run -f app
